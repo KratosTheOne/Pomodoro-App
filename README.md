@@ -8,6 +8,8 @@ The Pomodoro Technique is a time management system that encourages people to wor
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Check the live app here -> https://my-pomodoro-app.vercel.app/
+Don't forgt to check it out on your phone :)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
+![Screenshot (613)](https://user-images.githubusercontent.com/55058116/137640304-5b87900a-de89-42b9-85a0-5a8e17383b9d.png)
