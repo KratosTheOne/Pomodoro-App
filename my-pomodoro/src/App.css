@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Major Mono Display", monospace;
+  line-height: 1.5;
+}
+
+.app {
+  min-height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #87cfd7;
+  color: #257c80;
+}
+
+h2 {
+  color: #2c9398;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.timer {
+  color: #196367;
+  font-size: 150px;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  outline: none;
+  border: none;
+  font-size: 24px;
+  background: #d6fb8c;
+  color: #797d2a;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.buttons button:hover {
+  border-radius: 10px;
+  background: #f5f8ca;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.buttons button:not(:last-child) {
+  margin-right: 10px;
+}
+
+@media (max-width: 780px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  .timer {
+    font-size: 80px;
+  }
+
+  .buttons button {
+    font-size: 18px;
+  }
+}
